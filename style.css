@@ -1,0 +1,67 @@
+body
+{
+    margin: 0;
+
+}
+nav
+{
+    background-color: rgb(34, 32, 43);
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navname
+{
+    color: azure;
+    margin-top: 20px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+}
+h1
+{
+    margin: 0;
+}
+.Main{
+    margin-left: 20%;
+    background-color: aquamarine;
+    width: 80%;
+    
+}
+p{
+    margin: 0;
+}
+.navtop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+li{
+    list-style: none;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+}
+ul{
+    padding: 0;
+}
+.face{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 100%;
+    
+}
+.socials{
+    margin-top: 20px;
+}
+.socials > i{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+ 
