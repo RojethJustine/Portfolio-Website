@@ -26,8 +26,13 @@ h1
 }
 .Main{
     margin-left: 20%;
-    background-color: aquamarine;
+    background-image: url(pic\wallpepr.jpg);
     width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
     
 }
 p{
